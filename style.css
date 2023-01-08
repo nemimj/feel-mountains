@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    text-align: center;
+    height: 100%;
+    line-height: 1.2;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img1,.img2,.img3{
+    background-image: url(images/1st.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+   
+}
+
+.img2{
+    background-image: url(images/2.jpg);
+}
+
+.img3{
+    background-image: url(images/3.jpg);
+}
+
+h1,h2,h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3.5rem;
+   background:linear-gradient(#110f0f7a,#8080a326);
+    padding: 20px;
+    color: darkgrey;
+    text-align: center;
+   
+}
+
+.one,.two,.three{
+    padding: 20px 40px;
+}
+
+section > h2{
+    font-size:2.5rem;
+
+}
+
+p{
+    padding: 0 40px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width:767px) {
+    h1{
+        font-size: 2.5rem;
+        width: 85%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+
+    p{
+        width: 100%;
+        font-size: 1rem;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1024px){
+    h1{
+        font-size: 3.5rem;
+        width: 85%;
+    }
+     h2{
+        font-size: 2.5rem;
+    }
+
+    p{
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0px;
+    }
+}
+
+
+
+@media screen and (min-width:1025px){
+    h1{
+        font-size: 4.5rem;
+        width: 75%;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+
+    p{
+        
+        font-size: 1.2rem;
+        padding: 0px 40px;
+    }
+}
+
+
